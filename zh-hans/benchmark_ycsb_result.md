@@ -40,8 +40,8 @@
 
 ## 3.写性能
 - 以下为**写入速度**与**95/99分位延迟数据**：
-![Insert OPS](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Insert_OPS.svg)
-![Insert Latency](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Insert_Percentile_Latency_us.svg)
+![Insert OPS](../images/ycsb-on-mongo/Insert_OPS.svg)
+![Insert Latency](../images/ycsb-on-mongo/Insert_Percentile_Latency_us.svg)
 
 ## 4.读性能
 我们在开始读性能测试之前，首先批量的将所有数据写入数据库，然后重启服务器后开始测试。需要注意的是，除了数据远小于内存，其它的的读测试均是**均匀分布**与**齐普夫分布**测试。
@@ -53,34 +53,34 @@
 ### 4.1.数据远小于内存（内存64GB）
 - 以下为**数据压缩后大小**与**内存占用**：
 - 由于压缩后数据库的尺寸(Storage Size)与读测试的内存限制无关，后面不再重复 Storage Size 图表
-![Storage Size](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Data_Storage_Size_GB.svg)
-![Memory Usage](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Read_Memory_Usage_GB.svg)
+![Storage Size](../images/ycsb-on-mongo/Data_Storage_Size_GB.svg)
+![Memory Usage](../images/ycsb-on-mongo/Read_Memory_Usage_GB.svg)
 
 - 后续所有测试都使用同一份数据
 - YCSB客户端全程占用 240% 以上CPU
-![Read QPS Unlimited](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Read_QPS_Memory_Unlimited.svg)
-![Read Latency Unlimited](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Read_Percentile_Latency_us.svg)
+![Read QPS Unlimited](../images/ycsb-on-mongo/Read_QPS_Memory_Unlimited.svg)
+![Read Latency Unlimited](../images/ycsb-on-mongo/Read_Percentile_Latency_us.svg)
 
 ### 4.2.数据略小于内存（内存8GB）
 - 此种情况下内存比数据略大，设置数据库专用缓存(缓存解压后的数据) 4G 
    - （Wiredtiger 和 RocksDB 官方均推荐配置该缓存占物理内存一半）
 - TerarkDB 需要的内存只有 2.84G，远小于8G，不影响性能
 - 读95/99分位延迟数据为均匀分布测试结果
-![Read QPS 8G](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Read_QPS_Memory_Limit_8G.svg)
-![Read Latency_8G](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Read_Percentile_Latency_us_Memory_Limit_8G.svg)
+![Read QPS 8G](../images/ycsb-on-mongo/Read_QPS_Memory_Limit_8G.svg)
+![Read Latency_8G](../images/ycsb-on-mongo/Read_Percentile_Latency_us_Memory_Limit_8G.svg)
 
 ### 4.3.数据略大于内存（内存4GB）
 - 此种情况下内存比数据略大，设置缓存2G
 - TerarkDB 需要的内存只有 2.84G，远小于4G，不影响性能
 - 读95/99分位延迟数据为均匀分布测试结果
-![Read QPS 4G](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Read_QPS_Memory_Limit_4G.svg)
-![Read Latency_4G](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Read_Percentile_Latency_us_Memory_Limit_4G.svg)
+![Read QPS 4G](../images/ycsb-on-mongo/Read_QPS_Memory_Limit_4G.svg)
+![Read Latency_4G](../images/ycsb-on-mongo/Read_Percentile_Latency_us_Memory_Limit_4G.svg)
 
 ### 4.4.数据大于内存（内存2GB）
 - 此种情况下所有存储引擎都达不到需要的内存
 - 瓶颈在于文件IO，所有引擎的速度严重下降
 - 读95/99分位延迟数据为均匀分布测试结果
-![Read QPS 2G](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Read_QPS_Memory_Limit_2G.svg)
-![Read Latency_2G](https://cdn.rawgit.com/wiki/Terark/mongo-on-terarkdb/images/ycsb-on-mongo/Read_Percentile_Latency_us_Memory_Limit_2G.svg)
+![Read QPS 2G](../images/ycsb-on-mongo/Read_QPS_Memory_Limit_2G.svg)
+![Read Latency_2G](../images/ycsb-on-mongo/Read_Percentile_Latency_us_Memory_Limit_2G.svg)
 
 
