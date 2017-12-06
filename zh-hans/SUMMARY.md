@@ -7,7 +7,9 @@
 - [性能测试报告](benchmarks.md)
   * [Amazon Movie Reviews 测试](amazon_movie_reviews_benchmark.md)
 - [常见测试方法](benchmark_tools.md)
-  * [使用 YCSB 进行测试](benchmark_tool_ycsb.md)
+  * YCSB
+    * [测试流程](benchmark_ycsb_how_to.md)
+    * [测试结果](benchmark_ycsb_result.md)
 - [MongoDB 兼容性](compatibility.md)
 - 技术背景
   * 系统架构
