@@ -1,5 +1,4 @@
-# Terark
-## 配置
+# 配置参数
 
 Terark 相关配置全都都在 storage.rocksdb.terarkdb 下，包含以下条目
 
@@ -29,14 +28,4 @@ Terark 相关配置全都都在 storage.rocksdb.terarkdb 下，包含以下条�
 |indexCacheRatio         |0      |典型值 0 或者较小的值，如 0.003
 |zipThreads              |8      |压缩数据使用的线程数
 
-## 主要变更
 
-1. `db.adminCommand({setParameter:1, rocksdbCompact: 2})` compact 所有 sst 到最底层
-1. `db.adminCommand({setParameter:1, terarkZipMinLevel: -1})` 修改 `terarkZipMinLevel`
-1. 分离 mongo 的 oplog 到独立的 ColumnFamily ，该 ColumnFamily 禁用自动 compact
-1. oplog collection 在 Truncate 之后 Flush 并整体 lv0->lv0 compact
-1. 增加 `MongoRocksOplogPropertiesCollector` ，按 prefix 收集必要的 oplog 信息
-1. 启动时修正 oplog collection 的 numRecords 与 dataSize
-1. 禁用 `RocksEngine::initRsOplogBackgroundThread` 创建后台线程的逻辑
-1. 在 RocksEngine 开启一个独立的线程统一清理 oplog
-1. Initial sync 开始与结束调用 engine 虚函数 prepareInitialSync/finishInitialSync

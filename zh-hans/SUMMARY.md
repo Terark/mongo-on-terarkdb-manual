@@ -2,6 +2,7 @@
 
 - [产品介绍](README.md)
 - [安装部署](installation.md)
+- [Terark 的修改](terark_changes.md)
 - [配置参数说明](config_summary.md)
 - [性能测试报告](benchmarks.md)
   * [Amazon Movie Reviews 测试](amazon_movie_reviews_benchmark.md)
