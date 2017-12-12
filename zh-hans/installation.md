@@ -19,9 +19,34 @@
 ```bash
 env LD_LIBRARY_PATH=`pwd`/lib:$LD_LIBRARY_PATH  \
     TerarkUseDivSufSort=1                       \
-    ./mongod -f config --fork # --fork 表示以后台方式启动
+    ./mongod -f config --fork
+# --fork 表示以后台方式启动
+# -f config 中的 "config" 是配置文件名
 ```
 
-config 中的配置选项是按照 `系统内存 = 16G` 来优化的，也可以正常工作于内存 8G 以上(包括大于16G)的系统。
+### 5. 
+
+配置文件说明：
+
+如下 config 中的配置选项是按照 `系统内存 = 16G` 来优化的，也可以正常工作于内存 8G 以上(包括大于16G)的系统：
+
+
+```
+net:
+  bindIp: "0.0.0.0"
+  port: 27017
+storage:
+  dbPath: "data" # 必须提前创建数据目录，如果以 --fork 方式启动，必须是绝对路径
+  engine: "rocksdb"
+  rocksdb:
+    maxWriteMBPerSec: 200 # 文件写入速度限流，根据 SSD 的性能和业务需求调整
+    terarkdb:
+      enabled: true                   # 如果为 false，表示使用原版 rocksdb
+      localTempDir: "data/terark-tmp" # 必须提前创建，如果以 --fork 方式启动，必须是绝对路径
+      cleanTempDir: true              # 启动时自动清理残留 temp 文件（mongod异常终止时会有残留文件）
+      softZipWorkingMemLimit: 2147483648  #   2G，如果不设置，默认是总内存的 1/8
+      hardZipWorkingMemLimit: 4294967296  #   4G，如果不设置，默认是总内存的 1/4
+      smallTaskMemory: 536870912          # 512M，如果不设置，默认是总内存的 1/32
+```
 
 

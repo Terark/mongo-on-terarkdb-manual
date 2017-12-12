@@ -1,40 +1,8 @@
-## 1. 下载 Mongo on TerarkDB
-目前我们提供了一个静态编译版本的 Mongo on TerarkDB 供用户进行测试，请通过下方的链接进行下载。
+## 1. 下载，安装部署 Mongo on TerarkDB
 
-[下载 mongod-Linux-x86_64-g++-4.8.tar.bz2](http://terark-downloads.oss-cn-qingdao.aliyuncs.com/mongo_rocksdb/r3.2.13/mongod-Linux-x86_64-g%2B%2B-4.8.tar.xz)
-
-完成下载后，您可以直接安装运行即可。
+点击这里：[下载，安装部署 Mongo on TerarkDB](installation.md)
 
 ## 2. 创建测试所需的数据库以及表
-
-- 启动 Mongod:
-
-```bash
-cd /path/to/mongod
-LD_LIBRARY_PATH=$PWD/lib ./mongod -f config # `config` 是默认的配置文件
-```
-
-配置文件说明：
-
-```
-net:
-  bindIp: "0.0.0.0"
-  port: 27017
-storage:
-  dbPath: "data" # 必须提前创建数据目录
-  engine: "rocksdb"
-  rocksdb:
-    maxWriteMBPerSec: 200 # 文件写入速度限流，根据 SSD 的性能调整
-    terarkdb:
-      enabled: true
-      localTempDir: "data/terark-tmp" # 必须提前创建
-      cleanTempDir: true
-      softZipWorkingMemLimit: 17179869184  # 16G，用总内存的 1/8
-      hardZipWorkingMemLimit: 34359738368  # 32G，总内存的 1/4
-      smallTaskMemory: 1073741824  # 1G，总内存的 1/64
-```
-
-
 
 - 创建测试用户及测试数据库
 
