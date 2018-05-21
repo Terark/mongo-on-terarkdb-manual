@@ -18,8 +18,8 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
     <td>DDR4 16G @ 1866 MHz x 12 （共 <strong>128 G</strong>）</td>
   </tr>
   <tr>
-    <th>SSD</th>
-    <td></td>
+    <th>File system</th>
+    <td>lenovo's file system</td>
   </tr>
   <tr>
     <th>操作系统</th>
@@ -100,10 +100,28 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 将上表数据以图标形式展示如下：
 
-#### 128G memory
+#### 1. 128G memory
 
 ![rps_128g](../images/benchmark_ycsb_wikipedia/rps_128g.svg)
 
 随机读 95/99 分位延迟如下：
 
 ![read_latency_128g](../images/benchmark_ycsb_wikipedia/read_latency_128g.svg)
+
+读写混合 95/99 分位延迟如下：
+
+![readwrite_latency_128g](../images/benchmark_ycsb_wikipedia/readwrite_latency_128g.svg)
+
+<hr />
+
+#### 2. 24G memory
+
+![rps_24g](../images/benchmark_ycsb_wikipedia/rps_24g.svg)
+
+随机读 95/99 分位延迟如下：
+
+![read_latency_24g](../images/benchmark_ycsb_wikipedia/read_latency_24g.svg)
+
+读写混合 95/99 分位延迟如下：
+
+![readwrite_latency_24g](../images/benchmark_ycsb_wikipedia/readwrite_latency_24g.svg)
