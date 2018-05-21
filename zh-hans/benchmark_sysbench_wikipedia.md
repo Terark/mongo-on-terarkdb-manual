@@ -62,7 +62,8 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 </table>
 
 图表展示如下：
-!(database_size)[]
+
+![database_size](../image/benchamrk_ycsb_wikipedia/database_size.svg)
 
 ## 测试结果
 
