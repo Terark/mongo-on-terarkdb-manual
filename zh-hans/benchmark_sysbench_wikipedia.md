@@ -102,3 +102,8 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 #### 128G memory
 
+![rps_128g](../images/benchmark_ycsb_wikipedia/rps_128g.svg)
+
+随机读 95/99 分位延迟如下：
+
+![read_latency_128g](../images/benchmark_ycsb_wikipedia/read_latency_128g.svg)
