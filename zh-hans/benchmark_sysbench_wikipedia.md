@@ -27,6 +27,8 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
   </tr>
 </table>
 
+测试中使用了两台以上配置的服务器，并在这两台服务器上分别搭建了一主一从的 MonoDB 和 TerarkMongo 集群。YCSB 测试客户端均跑在同内网下的不同机器中。
+
 下文 G, GB 指 2<sup>30</sup>，而非 10<sup>9</sup>。
 
 # 数据导入
@@ -57,4 +59,40 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
   <td align="right">58.3 G</td>
   <td align="right">57.1% 或 1.75倍</td>
 </tr>
+</table>
+
+图表展示如下：
+!(database_size)[]
+
+# 测试结果
+
+我们进行了两种测试：
+
+- 随机读测试（read）
+- 随机读、写混合测试，读写比例为 9 ：1（read_write）
+
+这两种测试分别在 128G、24G 内存下运行，其中 24G 内存限制为使用内存挤占工具挤占一定数量的内存（不可换出）确保各数据库能使用的内存为 24G。
+
+每次测试中 MonoDB 的 **storage.wiredTiger.engineConfig.cacheSizeGB** 总是设置为可用内存的 **60%** - 1GB（60% of RAM minus 1 GB），TerarkMongo 的 **softZipWorkingMemLimit** 和 **hardZipWorkingMemLimit** 分别设置为可用内存的 **1/8** 和 **1/4**。
+
+所有的测试均使用 32 个线程，每次测试持续 30 分钟。
+
+测试结果总览如下：
+
+<table>
+    <tr>
+             <th>内存</th><th>测试类型</th><th>TerarkMongo</th><th>MongoDB</th>
+    </tr>
+    <tr align="right">
+             <td rowspan="2">128G</td> <td align="left">read</td> <td>134,188</td> <td>131,485</td>
+    </tr>
+    <tr align="right">
+             <td align="left">read_write</td> <td>56,336</td> <td>10,601</td>
+    </tr>
+    <tr align="right">
+             <td rowspan="2">24G</td><td align="left">read</td> <td>25,192</td> <td>2,822</td>
+    </tr>
+    <tr align="right">
+             <td align="left">read_write</td> <td>10,831</td> <td>3,073</td>
+    </tr>
 </table>
