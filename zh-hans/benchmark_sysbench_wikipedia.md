@@ -1,4 +1,4 @@
-# 简介
+## 简介
 
 YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一个用来对云服务进行基础测试的工具。目标是促进新一代云数据服务系统的性能比较。本测试使用修改版的 YCSB 分别向官方原版 MongoDB 和 [TerarkMongo](http://terark.com/zh/databases/mongodb)导入 **38,508,221** 条 [wikipedia](https://dumps.wikimedia.org/backup-index.html) 文章数据，并测试在不同内存下两者的读写性能。
 
@@ -6,7 +6,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 测试的数据库有 [TerarkMongo](http://terark.com/zh/databases/mongodb) 和官方原版的 [MongoDB](https://www.mongodb.com/)，MongoDB 的版本为 **v3.2.13**。
 
-# 测试平台
+## 测试平台
 
 <table>
   <tr>
@@ -31,7 +31,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 下文 G, GB 指 2<sup>30</sup>，而非 10<sup>9</sup>。
 
-# 数据导入
+## 数据导入
 
 原版的 YCSB 使用随机生产的字符串作为数据源，这样的数据无法体现压缩算法的优劣。通过使用修改后的 YCSB，我们以 [wikipedia](https://dumps.wikimedia.org/backup-index.html) dump 出来的文章数据作为数据源（数据示例可见**附录1**），这些数据共有这些数据共有 **38,508,221** 条，总大小为 **102.1 GB**，平均每条约 **2.8 KB**。其中，将数据中前三个字段(id、namepsace、title)作为主键（_id）。
 
@@ -64,7 +64,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 图表展示如下：
 !(database_size)[]
 
-# 测试结果
+## 测试结果
 
 我们进行了两种测试：
 
@@ -96,3 +96,8 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
              <td align="left">read_write</td> <td>10,831</td> <td>3,073</td>
     </tr>
 </table>
+
+将上表数据以图标形式展示如下：
+
+#### 128G memory
+
