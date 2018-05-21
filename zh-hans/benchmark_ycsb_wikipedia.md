@@ -61,7 +61,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 </tr>
 </table>
 
-图表展示如下：
+将数据库磁盘占用以及测试中最大内存用量用图表展示如下：
 
 ![size_memory](../images/benchmark_ycsb_wikipedia/size_memory.svg)
 
