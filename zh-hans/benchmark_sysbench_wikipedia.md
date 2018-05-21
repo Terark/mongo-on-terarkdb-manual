@@ -1,3 +1,60 @@
 # 简介
 
-YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一个用来对云服务进行基础测试的工具。目标是促进新一代云数据服务系统的性能比较。
+YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一个用来对云服务进行基础测试的工具。目标是促进新一代云数据服务系统的性能比较。本测试使用修改版的 YCSB 分别向官方原版 MongoDB 和 [TerarkMongo](http://terark.com/zh/databases/mongodb)导入 **38,508,221** 条 [wikipedia](https://dumps.wikimedia.org/backup-index.html) 文章数据，并测试在不同内存下两者的读写性能。
+
+由于原版 YCSB 的数据都是纯随机生成的字符串，离用户的真是场景相差较大，所以我们修改了 [YCSB](https://github.com/Terark/YCSB/tree/dev) 并添加了一个 [FileWorkload](https://github.com/Terark/YCSB/blob/master/README-terark.md)，以使用接近真实场景的数据来对数据库进行测试。
+
+测试的数据库有 [TerarkMongo](http://terark.com/zh/databases/mongodb) 和官方原版的 [MongoDB](https://www.mongodb.com/)，MongoDB 的版本为 **v3.2.13**。
+
+# 测试平台
+
+<table>
+  <tr>
+    <th>CPU</th>
+    <td>Intel(R) Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz （共 24 核 48 线程）</td>
+  </tr>
+  <tr>
+    <th>内存</th>
+    <td>DDR4 16G @ 1866 MHz x 12 （共 <strong>128 G</strong>）</td>
+  </tr>
+  <tr>
+    <th>SSD</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>操作系统</th>
+    <td>CentOS 7.3.1611</td>
+  </tr>
+</table>
+
+下文 G, GB 指 2<sup>30</sup>，而非 10<sup>9</sup>。
+
+# 数据导入
+
+原版的 YCSB 使用随机生产的字符串作为数据源，这样的数据无法体现压缩算法的优劣。通过使用修改后的 YCSB，我们以 [wikipedia](https://dumps.wikimedia.org/backup-index.html) dump 出来的文章数据作为数据源（数据示例可见**附录1**），这些数据共有这些数据共有 **38,508,221** 条，总大小为 **102.1 GB**，平均每条约 **2.8 KB**。其中，将数据中前三个字段(id、namepsace、title)作为主键（_id）。
+
+数据导入后，数据库的尺寸大小比较如下：
+
+<table>
+<tr>
+  <th colspan="2" align="right">数据库尺寸</th>
+  <th>压缩率</th>
+  <th rowspan="3"></th>
+  <th>数据条数</th>
+  <th>单条尺寸</th>
+  <th>总尺寸</th>
+</tr>
+<tr>
+  <td align="right">TerarkMongo</td>
+  <td align="right">27.3 G</td>
+  <td align="right">26.7% 或 3.74倍</td>
+  <td align="center" rowspan="2">38,508,221</td>
+  <td align="center" rowspan="2">2.8 KB</td>
+  <td align="center" rowspan="2">102.1 G</td>
+</tr>
+<tr>
+  <td align="right">MongoDB</td>
+  <td align="right">58.3 G</td>
+  <td align="right">57.1% 或 1.75倍</td>
+</tr>
+</table>
