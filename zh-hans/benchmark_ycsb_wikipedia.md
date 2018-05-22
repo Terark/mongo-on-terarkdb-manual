@@ -111,7 +111,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 ![rps_128g](../images/benchmark_ycsb_wikipedia/qps_128g.svg)
 
-128G 内存对 TerarkMongo 和原版 MonogDB 都够用，实际上，TerarkMongo 只使用了 27G，而原版 MongoDB 则使用了 117G 内存（进程内存 + 系统缓存）。
+128G 内存对 TerarkMongo 和原版 Mongo 都够用，实际上，TerarkMongo 只使用了 27G，而原版 Mongo 则使用了 117G 内存（进程内存 + 系统缓存）。
 
 随机读 95/99 分位延迟如下：
 
@@ -130,6 +130,8 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 ### 2. 24G memory
 
 ![rps_24g](../images/benchmark_ycsb_wikipedia/qps_24g.svg)
+
+24G 内存对 TerarkMongo 和原版 Mongo 都不够用。因为测试时使用的磁盘为网络共享网盘，其 IO 较低，故数据库性能相较于 128G 内存下都有较大的下降，但是原版 Mongo 的内存缺口比 TerarkMongo 大的多，从而 TerarkMongo 的性能远高于原版 Mongo。
 
 随机读 95/99 分位延迟如下：
 
