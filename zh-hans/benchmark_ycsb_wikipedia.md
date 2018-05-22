@@ -107,7 +107,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 将上表数据以图标形式展示如下：
 
-#### 1. 128G memory
+### 1. 128G memory
 
 ![rps_128g](../images/benchmark_ycsb_wikipedia/qps_128g.svg)
 
@@ -125,7 +125,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 <hr />
 
-#### 2. 24G memory
+### 2. 24G memory
 
 ![rps_24g](../images/benchmark_ycsb_wikipedia/qps_24g.svg)
 
