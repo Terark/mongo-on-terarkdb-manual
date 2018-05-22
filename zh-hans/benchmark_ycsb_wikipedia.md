@@ -70,7 +70,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 我们进行了两种测试：
 
 - 随机读测试（read）
-- 批量随机读测试，每次 query 读取 20 条数据（batch_read）
+- 批量随机读测试，每次 query 随机读取 20 条数据（batch_read）
 - 随机读、写混合测试，读写比例为 9 ：1（read_write）
 
 这两种测试分别在 128G、24G 内存下运行，其中 24G 内存限制为使用内存挤占工具挤占一定数量的内存（不可换出）确保各数据库能使用的内存为 24G。
