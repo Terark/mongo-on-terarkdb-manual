@@ -114,6 +114,10 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 ![read_latency_128g](../images/benchmark_ycsb_wikipedia/read_latency_128g.svg)
 
+批量随机读 95/99 分位延迟如下：
+
+![batchread_latency_128g](../images/benchmark_ycsb_wikipedia/batchread_latency_128g.svg)
+
 读写混合 95/99 分位延迟如下：
 
 ![readwrite_latency_128g](../images/benchmark_ycsb_wikipedia/readwrite_latency_128g.svg)
@@ -127,6 +131,10 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 随机读 95/99 分位延迟如下：
 
 ![read_latency_24g](../images/benchmark_ycsb_wikipedia/read_latency_24g.svg)
+
+批量随机读 95/99 分位延迟如下：
+
+![batchread_latency_24g](../images/benchmark_ycsb_wikipedia/batchread_latency_24g.svg)
 
 读写混合 95/99 分位延迟如下：
 
