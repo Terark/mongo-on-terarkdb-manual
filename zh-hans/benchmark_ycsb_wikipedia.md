@@ -19,7 +19,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
   </tr>
   <tr>
     <th>File system</th>
-    <td>lenovo's file system</td>
+    <td>lenovo's web file system</td>
   </tr>
   <tr>
     <th>操作系统</th>
