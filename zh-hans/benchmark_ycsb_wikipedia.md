@@ -89,7 +89,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
              <td rowspan="3">128G</td> <td align="left">read</td> <td>134,188</td> <td>131,485</td>
     </tr>
     <tr align="right">
-             <td align="left">batch_read</td> <td>15,874</td> <td>16,831</td>
+             <td align="left">batch_read</td> <td>317,480</td> <td>336,620</td>
     </tr>
     <tr align="right">
              <td align="left">read_write</td> <td>56,336</td> <td>10,601</td>
@@ -98,7 +98,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
              <td rowspan="3">24G</td><td align="left">read</td> <td>25,192</td> <td>2,822</td>
     </tr>
     <tr align="right">
-             <td align="left">batch_read</td> <td>1,125</td> <td>143</td>
+             <td align="left">batch_read</td> <td>22,500</td> <td>2,860</td>
     </tr>
     <tr align="right">
              <td align="left">read_write</td> <td>10,831</td> <td>3,073</td>
