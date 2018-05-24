@@ -11,7 +11,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 <table>
   <tr>
     <th>CPU</th>
-    <td>Intel(R) Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz （共 24 核 48 线程）</td>
+    <td>Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz （共 24 核 48 线程）</td>
   </tr>
   <tr>
     <th>内存</th>
