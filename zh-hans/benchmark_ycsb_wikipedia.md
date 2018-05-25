@@ -144,3 +144,10 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 读写混合 95/99 分位延迟如下：
 
 ![readwrite_latency_24g](../images/benchmark_ycsb_wikipedia/readwrite_latency_24g.svg)
+
+## 附录1
+
+数据示例：
+```
+
+```
