@@ -73,7 +73,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 - 批量随机读测试，每次 query 随机读取 20 条数据（batch_read）
 - 随机读、写混合测试，读写比例为 9 ：1（read_write）
 
-这两种测试分别在 128G、24G 内存下运行，其中 24G 内存限制为使用内存挤占工具挤占一定数量的内存（不可换出）确保各数据库能使用的内存为 24G。
+这三种测试分别在 128G、24G 内存下运行，其中 24G 内存限制为使用内存挤占工具挤占一定数量的内存（不可换出）确保各数据库能使用的内存为 24G。
 
 每次测试中 MonoDB 的 **storage.wiredTiger.engineConfig.cacheSizeGB** 总是设置为可用内存的 **60%** - 1GB（60% of RAM minus 1 GB），TerarkMongo 的 **softZipWorkingMemLimit** 和 **hardZipWorkingMemLimit** 分别设置为可用内存的 **1/8** 和 **1/4**。
 
