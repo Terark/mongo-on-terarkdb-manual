@@ -141,7 +141,7 @@ TerarkDB 的 **target_file_size_base** 选项用于设置数据压缩后生成�
 
 24G 内存对 TerarkDB_2G（**target_file_size_base** 为 **2G** 的 TerarkDB） 和 WiredTiger 都不够用，故数据库性能相较于 128G 内存下都有较大的下降，但是 WiredTiger 的内存缺口比 TerarkDB_2G 大的多，从而 TerarkDB_2G 的性能远高于 WiredTiger。TerarkDB_24G（**target_file_size_base** 为 **24G** 的 TerarkDB） 在不限制内存的情况下最大内存使用仅有 23G， 24G 内存本该足够 TerarkDB_24G 将所有数据加载进内存，但是因磁盘及操作系统的原因，TerarkDB_24G 的最大内存使用只能达到 19G，既仍有部分数据未能加载进内存。所以 TerarkDB_24G 相对与 TerarkDB_2G 没有显著的性能提升，但是仍远高于 WiredTiger。
 
-测试时使用的磁盘为共享网盘，其 IO 较低，且对于单个文件的随机读 IOPS 有一定上限，多个线程同时读一个文件的性能较低，在进行测试前都进行了足够长时间的预热。而 TerarkDB_24G 则刚好将所有数据压缩成一个文件，共享网盘对 TerarkDB 的影响更大，Terark_24G 的读写混合测试结果较 Terark_2G 有较大程度的下降。
+测试时使用的磁盘为共享网盘，其 IO 较低，且对于单个文件的随机读 IOPS 有一定上限，多个线程同时读一个文件的性能较低，在进行测试前都进行了足够长时间的预热。而 TerarkDB_24G 则刚好将所有数据压缩成一个文件，共享网盘对 TerarkDB_24G 的影响更大，Terark_24G 的读写混合测试结果较 Terark_2G 有较大程度的下降。
 
 随机读 95/99 分位延迟如下：
 
