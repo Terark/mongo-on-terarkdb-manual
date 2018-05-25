@@ -86,25 +86,25 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 测试结果总览如下：
 <table>
     <tr>
-             <th>内存</th><th>测试类型</th><th>TerarkMongo</th><th>MongoDB</th>
+             <th>内存</th><th>测试类型</th><th>TerarkDB_2G</th><th>TerarkDB_24G</th><th>WiredTiger</th>
     </tr>
     <tr align="right">
-             <td rowspan="3">128G</td> <td align="left">read</td> <td>134,188</td> <td>131,485</td>
+             <td rowspan="3">128G</td> <td align="left">read</td> <td>134,188</td> <td>140,948</td> <td>131,485</td>
     </tr>
     <tr align="right">
-             <td align="left">batch_read</td> <td>317,480</td> <td>336,620</td>
+             <td align="left">batch_read</td> <td>317,480</td> <td>328,220</td> <td>336,620</td>
     </tr>
     <tr align="right">
-             <td align="left">read_write</td> <td>56,336</td> <td>10,601</td>
+             <td align="left">read_write</td> <td>56,336</td> <td>74,703</td> <td>10,601</td>
     </tr>
     <tr align="right">
-             <td rowspan="3">24G</td><td align="left">read</td> <td>25,192</td> <td>2,822</td>
+             <td rowspan="3">24G</td><td align="left">read</td> <td>25,192</td> <td>28,059</td> <td>2,822</td>
     </tr>
     <tr align="right">
-             <td align="left">batch_read</td> <td>22,500</td> <td>2,860</td>
+             <td align="left">batch_read</td> <td>22,500</td> <td>23,260</td> <td>2,860</td>
     </tr>
     <tr align="right">
-             <td align="left">read_write</td> <td>10,831</td> <td>3,073</td>
+             <td align="left">read_write</td> <td>10,831</td> <td>6,702</td> <td>3,073</td>
     </tr>
 </table>
 
