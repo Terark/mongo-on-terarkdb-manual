@@ -36,7 +36,6 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 原版的 YCSB 使用随机生成的字符串作为数据源，这样的数据无法体现压缩算法的优劣。通过使用修改后的 YCSB，我们以 [wikipedia](https://dumps.wikimedia.org/backup-index.html) dump 出来的文章数据作为数据源（数据示例可见**附录1**），这些数据共有这些数据共有 **38,508,221** 条，总大小为 **102.1 GB**，平均每条约 **2.8 KB**。其中，将数据中前三个字段(id、namepsace、title)作为主键（_id）。
 
 数据导入后，数据库的尺寸大小比较如下：
-
 <table>
 <tr>
   <th colspan="2" align="right">数据库尺寸</th>
