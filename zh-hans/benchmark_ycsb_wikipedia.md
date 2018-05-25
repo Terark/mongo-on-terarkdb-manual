@@ -40,18 +40,23 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 <tr>
   <th colspan="2" align="right">数据库尺寸</th>
   <th>压缩率</th>
-  <th rowspan="3"></th>
+  <th rowspan="4"></th>
   <th>数据条数</th>
   <th>单条尺寸</th>
   <th>总尺寸</th>
 </tr>
 <tr>
-  <td align="right">TerarkMongo</td>
+  <td align="right">TerarkDB_2G</td>
   <td align="right">27.3 G</td>
   <td align="right">26.7% 或 3.74倍</td>
-  <td align="center" rowspan="2">38,508,221</td>
-  <td align="center" rowspan="2">2.8 KB</td>
-  <td align="center" rowspan="2">102.1 G</td>
+  <td align="center" rowspan="3">38,508,221</td>
+  <td align="center" rowspan="3">2.8 KB</td>
+  <td align="center" rowspan="3">102.1 G</td>
+</tr>
+<tr>
+  <td align="right">TerarkDB_24G</td>
+  <td align="right">23.4 G</td>
+  <td align="right">22.9% 或 4.36倍</td>
 </tr>
 <tr>
   <td align="right">MongoDB</td>
