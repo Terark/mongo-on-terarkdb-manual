@@ -30,7 +30,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
   </tr>
 </table>
 
-测试中使用了两台上表配置且在同一内网的服务器，并在这两台服务器上分别搭建了一主一从的 MonoDB 和 TerarkMongo 集群。YCSB 测试程序均跑在同内网下的不同机器中。
+测试中使用了两台上表配置且在同一内网的服务器，并在这两台服务器上分别搭建了一主一从的 MongoDB 和 TerarkMongo 集群。YCSB 测试程序均跑在同内网下的不同机器中。
 
 下文 G, GB 指 2<sup>30</sup>，而非 10<sup>9</sup>。
 
