@@ -4,7 +4,10 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 由于原版 YCSB 的数据都是纯随机生成的字符串，离用户的真实场景相差较大，所以我们修改了 [YCSB](https://github.com/Terark/YCSB/tree/dev) 并添加了一个 [FileWorkload](https://github.com/Terark/YCSB/blob/master/README-terark.md)，以使用接近真实场景的数据来对数据库进行测试。
 
-测试的数据库有 [TerarkMongo](http://terark.com/zh/databases/mongodb) 和官方原版的 [MongoDB](https://www.mongodb.com/)，MongoDB 的版本为 **v3.2.13**。
+测试的数据库有:
+ - [TerarkMongo](http://terark.com/zh/databases/mongodb)，存储引擎为 TerarkDB，**target_file_size_base** 设为 **2G**，后记为 TerarkDB_2G
+ - [TerarkMongo](http://terark.com/zh/databases/mongodb)，存储引擎为 TerarkDB，**target_file_size_base** 设为 **24G**，后记为 TerarkDB_24G
+ - 官方原版的 [MongoDB](https://www.mongodb.com/)，版本为 **v3.2.13**，存储引擎为 WiredTiger，后记为 WiredTiger
 
 ## 测试平台
 
