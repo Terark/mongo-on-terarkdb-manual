@@ -1,13 +1,13 @@
 ## 简介
 
-YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一个用来对云服务进行基础测试的工具。目标是促进新一代云数据服务系统的性能比较。本测试使用修改版的 YCSB 分别向官方原版 MongoDB 和 [TerarkMongo](http://terark.com/zh/databases/mongodb) 导入 **38,508,221** 条 [wikipedia](https://dumps.wikimedia.org/backup-index.html) 文章数据，并测试在不同内存下两者的读写性能。
+YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一个用来对云服务进行基础测试的工具。目标是促进新一代云数据服务系统的性能比较。本测试使用修改版的 YCSB 分别向官方原版 [MongoDB](https://www.mongodb.com/) 和 [TerarkMongo](http://terark.com/zh/databases/mongodb) 导入 **38,508,221** 条 [wikipedia](https://dumps.wikimedia.org/backup-index.html) 文章数据，并测试在不同内存下两者的读写性能。
 
 由于原版 YCSB 的数据都是纯随机生成的字符串，离用户的真实场景相差较大，所以我们修改了 [YCSB](https://github.com/Terark/YCSB/tree/dev) 并添加了一个 [FileWorkload](https://github.com/Terark/YCSB/blob/master/README-terark.md)，以使用接近真实场景的数据来对数据库进行测试。
 
 测试的数据库有:
  - [TerarkMongo](http://terark.com/zh/databases/mongodb)，存储引擎为 TerarkDB，**target_file_size_base** 设为 **2G**，后记为 TerarkDB_2G
  - [TerarkMongo](http://terark.com/zh/databases/mongodb)，存储引擎为 TerarkDB，**target_file_size_base** 设为 **24G**，后记为 TerarkDB_24G
- - 官方原版的 [MongoDB](https://www.mongodb.com/)，版本为 **v3.2.13**，存储引擎为 WiredTiger，后记为 WiredTiger
+ - 官方原版 [MongoDB](https://www.mongodb.com/)，版本为 **v3.2.13**，存储引擎为 WiredTiger，后记为 WiredTiger
 
 TerarkDB 的 **target_file_size_base** 选项用于设置数据压缩后生成的数据文件（sst）的大小。当 **target_file_size_base** 设置为 **2G** 时 TerarkDB 的写放大较小，生成的数据文件较小（≈ 2G），便于管理；当 **target_file_size_base** 设置为 **24G** 时，能将所有的 wikipedia 文章数据压缩到一个数据文件（sst）中，此时 TerarkDB 有最高的压缩率和最好的性能。
 
