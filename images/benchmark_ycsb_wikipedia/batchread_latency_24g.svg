@@ -318,7 +318,7 @@
   <text
      xml:space="preserve"
      style="font-size:14.062500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,58.468623,13.075903)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,60.068540,13.075903)"
      x="0.000000"
      y="0.000000"
      id="text123"><tspan
@@ -329,11 +329,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:14.062500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan119">p95 write latency of batch_read test, memory = </tspan></tspan></text>
+         id="tspan119">p95 read latency of batch_read test, memory = </tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:14.062500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,373.972217,13.075903)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,372.372300,13.075903)"
      x="0.000000"
      y="0.000000"
      id="text129"><tspan
@@ -548,7 +548,7 @@
   <text
      xml:space="preserve"
      style="font-size:14.062500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,523.567806,13.075903)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,525.167723,13.075903)"
      x="0.000000"
      y="0.000000"
      id="text217"><tspan
@@ -559,11 +559,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:14.062500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan213">p99 write latency of batch_read test, memory = </tspan></tspan></text>
+         id="tspan213">p99 read latency of batch_read test, memory = </tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:14.062500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,839.071419,13.075903)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,837.471502,13.075903)"
      x="0.000000"
      y="0.000000"
      id="text223"><tspan
