@@ -15,7 +15,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
   </tr>
   <tr>
     <th>内存</th>
-    <td>DDR4 16G @ 1866 MHz x 8 （共 <strong>128 G</strong>）</td>
+    <td>DDR4 16G @ 2400 MHz x 8 （共 <strong>128 G</strong>）</td>
   </tr>
   <tr>
     <th>File system</th>
