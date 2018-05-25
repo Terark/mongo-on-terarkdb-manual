@@ -76,7 +76,7 @@ TerarkDB 的 **target_file_size_base** 选项用于设置数据压缩后生成�
 
 ## 测试结果
 
-我们进行了两种测试：
+我们进行了三种测试：
 
 - 随机读测试（read）
 - 批量随机读测试，每次 query 随机读取 20 条数据（batch_read）
