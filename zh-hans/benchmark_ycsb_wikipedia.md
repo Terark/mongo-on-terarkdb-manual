@@ -149,5 +149,15 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 
 数据示例：
 ```
-
+13	0	'AfghanistanHistory'	'#REDIRECT [[History of Afghanistan]] {{R from CamelCase}}'	'cat rd'	750223	'Rory096'	'20060908041552'	''	0	1	0	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79939091958447'
+14	0	'AfghanistanGeography'	'#REDIRECT [[Geography of Afghanistan]] {{R from CamelCase}}'	'1 revision from [[:nost:AfghanistanGeography]]: import old edit, see [[User:Graham87/Import]]'	194203	'Graham87'	'20110110035619'	''	0	1	1	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79889889964380'
+15	0	'AfghanistanPeople'	'#REDIRECT [[Demographics of Afghanistan]] {{R from CamelCase}}'	'Robot: Fixing double redirect to [[Demographics of Afghanistan]]'	279219	'RussBot'	'20140710191843'	''	0	1	1	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79859289808156'
+18	0	'AfghanistanCommunications'	'#REDIRECT [[Communications in Afghanistan]] {{R from CamelCase}}'	'cat rd'	750223	'Rory096'	'20060908041442'	''	0	1	0	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79939091958557'
+19	0	'AfghanistanTransportations'	'#REDIRECT [[Transport in Afghanistan]] {{R from CamelCase}} {{R unprintworthy}}'	''	930338	'Asklepiades'	'20110122003720'	''	0	1	0	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79889877996279'
+20	0	'AfghanistanMilitary'	'#REDIRECT [[Afghan Armed Forces]] {{R from CamelCase}}'	'Robot: Fixing double redirect to [[Afghan Armed Forces]]'	11292982	'EmausBot'	'20130604184503'	''	0	1	1	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79869395815496'
+21	0	'AfghanistanTransnationalIssues'	'#REDIRECT [[Foreign relations of Afghanistan]] {{R from CamelCase}}'	'{{R from CamelCase}}'	241822	'Gurch'	'20060401120842'	''	0	1	1	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79939598879157'
+23	0	'AssistiveTechnology'	'#REDIRECT [[Assistive_technology]] {{R from CamelCase}}'	'cat rd'	750223	'Rory096'	'20060908041700'	''	0	1	0	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79939091958299'
+24	0	'AmoeboidTaxa'	'#REDIRECT [[Amoeba]] {{R from CamelCase}}'	'Bot: Fixing double redirect to [[Amoeba]]'	15934865	'Invadibot'	'20140929222603'	''	0	1	1	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79859070777396'
 ```
+
+更多[here](https://raw.githubusercontent.com/Terark/mongo-on-terarkdb-manual/master/zh-hans/ycsb_dateset_example.txt)
