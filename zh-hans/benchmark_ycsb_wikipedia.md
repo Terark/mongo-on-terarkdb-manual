@@ -80,7 +80,6 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 所有的测试均使用 32 个线程，每次测试持续 30 分钟。
 
 测试结果总览如下：
-
 <table>
     <tr>
              <th>内存</th><th>测试类型</th><th>TerarkMongo</th><th>MongoDB</th>
