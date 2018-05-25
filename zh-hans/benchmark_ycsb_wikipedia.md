@@ -59,7 +59,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
   <td align="right">22.9% 或 4.36倍</td>
 </tr>
 <tr>
-  <td align="right">MongoDB</td>
+  <td align="right">WiredTiger</td>
   <td align="right">58.3 G</td>
   <td align="right">57.1% 或 1.75倍</td>
 </tr>
