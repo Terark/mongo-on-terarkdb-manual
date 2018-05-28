@@ -10,7 +10,7 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
  - 官方原版 [MongoDB](https://www.mongodb.com/)，版本为 **v3.2.13**，存储引擎为 WiredTiger，后记为 WiredTiger
 
 TerarkDB 的 **target_file_size_base** 选项用于设置数据压缩后生成的数据文件（sst）的大小。
-* 当 **target_file_size_base** 设置为 **2G** 时 TerarkDB 的写放大较小，生成的 sst 文件较小（≈ 2G），便于运维(额外磁盘空间占用较小)；
+* 当 **target_file_size_base** 设置为 **2G** 时，生成的 sst 文件较小（≈ 2G），利用 [TerarkDB 的 Compaction 优化](https://github.com/Terark/terarkdb/wiki/%E8%A7%A3%E5%86%B3-Universal-Compaction-%E7%A9%BA%E9%97%B4%E6%94%BE%E5%A4%A7%E9%97%AE%E9%A2%98)，额外磁盘空间占用较小，便于运维；
 * 当 **target_file_size_base** 设置为 **24G** 时，能将所有的 wikipedia 文章数据压缩到一个 sst 文件中，此时 TerarkDB 有最高的压缩率和最好的性能。
 
 ## 测试平台
