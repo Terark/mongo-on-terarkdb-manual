@@ -127,7 +127,7 @@ TerarkDB 的 **target_file_size_base** 选项用于设置数据压缩后生成�
 
 ![read_latency_128g](../images/benchmark_ycsb_wikipedia/read_latency_128g.svg)
 
-批量随机读 95/99 分位延迟如下：
+批量随机读 95/99 分位延迟如下（单位微秒）：
 
 ![batchread_latency_128g](../images/benchmark_ycsb_wikipedia/batchread_latency_128g.svg)
 
