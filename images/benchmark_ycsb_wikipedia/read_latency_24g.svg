@@ -10,11 +10,11 @@
    version="1.0"
    width="240.31mm"
    height="70.32mm"
-   id="svg1113"
+   id="svg1137"
    sodipodi:docname="read_latency_24g.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
-     id="metadata1117">
+     id="metadata1141">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -36,7 +36,7 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview1115"
+     id="namedview1139"
      showgrid="false"
      inkscape:zoom="0.42278724"
      inkscape:cx="454.12913"
@@ -44,9 +44,9 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg1113" />
+     inkscape:current-layer="svg1137" />
   <defs
-     id="defs887">
+     id="defs911">
     <pattern
        id="EMFhbasepattern"
        patternUnits="userSpaceOnUse"
@@ -57,88 +57,28 @@
   </defs>
   <path
      style="fill:none;stroke:#d9d9d9;stroke-width:0.95995015px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
-     d="  M 43.597736,203.90941   L 429.97767,203.90941     M 43.597736,182.63051   L 429.97767,182.63051     M 43.597736,161.51161   L 429.97767,161.51161     M 43.597736,140.39271   L 429.97767,140.39271     M 43.597736,119.2738   L 429.97767,119.2738     M 43.597736,98.154902   L 429.97767,98.154902     M 43.597736,77.035999   L 429.97767,77.035999     M 43.597736,55.917096   L 429.97767,55.917096     M 43.597736,34.798193   L 429.97767,34.798193    "
-     id="path889" />
+     d="  M 43.597736,201.18955   L 429.97767,201.18955     M 43.597736,177.1908   L 429.97767,177.1908     M 43.597736,153.19204   L 429.97767,153.19204     M 43.597736,129.19329   L 429.97767,129.19329     M 43.597736,105.35453   L 429.97767,105.35453     M 43.597736,81.355774   L 429.97767,81.355774     M 43.597736,57.357021   L 429.97767,57.357021     M 43.597736,33.358267   L 429.97767,33.358267    "
+     id="path913" />
   <path
      style="fill:#5b9bd5;fill-rule:evenodd;fill-opacity:1;stroke:none;"
-     d="  M 87.755442,194.14992   L 87.755442,225.02831   L 128.07335,225.02831   L 128.07335,194.14992   L 87.755442,194.14992   z "
-     id="path891" />
+     d="  M 87.755442,207.58922   L 87.755442,225.1883   L 128.07335,225.1883   L 128.07335,207.58922   L 87.755442,207.58922   z "
+     id="path915" />
   <path
      style="fill:#2e75b6;fill-rule:evenodd;fill-opacity:1;stroke:none;"
-     d="  M 216.54875,210.94904   L 216.54875,225.02831   L 257.02665,225.02831   L 257.02665,210.94904   L 216.54875,210.94904   z "
-     id="path893" />
+     d="  M 216.54875,217.18872   L 216.54875,225.1883   L 257.02665,225.1883   L 257.02665,217.18872   L 216.54875,217.18872   z "
+     id="path917" />
   <path
      style="fill:#ed7d31;fill-rule:evenodd;fill-opacity:1;stroke:none;"
-     d="  M 345.34206,63.436705   L 345.34206,225.02831   L 385.81996,225.02831   L 385.81996,63.436705   L 345.34206,63.436705   z "
-     id="path895" />
+     d="  M 345.34206,133.51307   L 345.34206,225.1883   L 385.81996,225.1883   L 385.81996,133.51307   L 345.34206,133.51307   z "
+     id="path919" />
   <path
      style="fill:none;stroke:#d9d9d9;stroke-width:0.95995015px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
-     d="  M 43.597736,225.02831   L 429.97767,225.02831  "
-     id="path897" />
+     d="  M 43.597736,225.1883   L 429.97767,225.1883  "
+     id="path921" />
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,94.512474,185.639264)"
-     x="0.000000"
-     y="0.000000"
-     id="text903"><tspan
-       sodipodi:role="line"
-       x="0.000000"
-       y="0.000000"
-       id="tspan901"><tspan
-         dx="0.000000"
-         dy="0.000000"
-         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan899">7291</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,223.346837,202.412885)"
-     x="0.000000"
-     y="0.000000"
-     id="text909"><tspan
-       sodipodi:role="line"
-       x="0.000000"
-       y="0.000000"
-       id="tspan907"><tspan
-         dx="0.000000"
-         dy="0.000000"
-         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan905">3322</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,348.824617,54.848167)"
-     x="0.000000"
-     y="0.000000"
-     id="text915"><tspan
-       sodipodi:role="line"
-       x="0.000000"
-       y="0.000000"
-       id="tspan913"><tspan
-         dx="0.000000"
-         dy="0.000000"
-         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan911">38239</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,26.615512,228.873269)"
-     x="0.000000"
-     y="0.000000"
-     id="text921"><tspan
-       sodipodi:role="line"
-       x="0.000000"
-       y="0.000000"
-       id="tspan919"><tspan
-         dx="0.000000"
-         dy="0.000000"
-         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan917">0</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,6.596396,207.742491)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,94.512474,199.139579)"
      x="0.000000"
      y="0.000000"
      id="text927"><tspan
@@ -148,12 +88,12 @@
        id="tspan925"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan923">5000</tspan></tspan></text>
+         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan923">7291</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,186.611714)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,223.346837,208.651116)"
      x="0.000000"
      y="0.000000"
      id="text933"><tspan
@@ -163,12 +103,12 @@
        id="tspan931"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan929">10000</tspan></tspan></text>
+         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan929">3322</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,165.480975)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,348.824617,124.973860)"
      x="0.000000"
      y="0.000000"
      id="text939"><tspan
@@ -178,12 +118,12 @@
        id="tspan937"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan935">15000</tspan></tspan></text>
+         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan935">38239</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,144.350198)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,26.615512,229.033260)"
      x="0.000000"
      y="0.000000"
      id="text945"><tspan
@@ -194,11 +134,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan941">20000</tspan></tspan></text>
+         id="tspan941">0</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,123.219303)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,205.068607)"
      x="0.000000"
      y="0.000000"
      id="text951"><tspan
@@ -209,11 +149,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan947">25000</tspan></tspan></text>
+         id="tspan947">10000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,102.088565)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,181.103992)"
      x="0.000000"
      y="0.000000"
      id="text957"><tspan
@@ -224,11 +164,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan953">30000</tspan></tspan></text>
+         id="tspan953">20000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,80.957787)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,157.139338)"
      x="0.000000"
      y="0.000000"
      id="text963"><tspan
@@ -239,11 +179,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan959">35000</tspan></tspan></text>
+         id="tspan959">30000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,59.827029)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,133.174724)"
      x="0.000000"
      y="0.000000"
      id="text969"><tspan
@@ -258,7 +198,7 @@
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,38.696252)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,109.210187)"
      x="0.000000"
      y="0.000000"
      id="text975"><tspan
@@ -269,11 +209,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan971">45000</tspan></tspan></text>
+         id="tspan971">50000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,69.677006,243.164050)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,85.245553)"
      x="0.000000"
      y="0.000000"
      id="text981"><tspan
@@ -284,11 +224,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan977">TerarkDB_2G</tspan></tspan></text>
+         id="tspan977">60000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,195.174863,243.164050)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,61.280919)"
      x="0.000000"
      y="0.000000"
      id="text987"><tspan
@@ -299,11 +239,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan983">TerarkDB_24G</tspan></tspan></text>
+         id="tspan983">70000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,334.358805,243.164050)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,-0.076637,37.316284)"
      x="0.000000"
      y="0.000000"
      id="text993"><tspan
@@ -314,11 +254,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan989">WiredTiger</tspan></tspan></text>
+         id="tspan989">80000</tspan></tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:16.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,50.049100,14.835772)"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,57.670911,243.324042)"
      x="0.000000"
      y="0.000000"
      id="text999"><tspan
@@ -328,12 +268,12 @@
        id="tspan997"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#595959;font-size:16.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan995">p95 read latency of read test, memory = </tspan></tspan></text>
+         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan995">TerarkDB_sst_2G</tspan></tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:16.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,355.473256,14.835772)"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,183.168768,243.324042)"
      x="0.000000"
      y="0.000000"
      id="text1005"><tspan
@@ -343,77 +283,77 @@
        id="tspan1003"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#FF0000;font-size:16.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1001">24G</tspan></tspan></text>
+         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1001">TerarkDB_sst_24G</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,334.358805,243.324042)"
+     x="0.000000"
+     y="0.000000"
+     id="text1011"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan1009"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1007">WiredTiger</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.750000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,81.567463,13.715870)"
+     x="0.000000"
+     y="0.000000"
+     id="text1017"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan1015"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#595959;font-size:14.750000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1013">p95 latency of read test, memory = </tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.750000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,326.514760,13.715870)"
+     x="0.000000"
+     y="0.000000"
+     id="text1023"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan1021"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#FF0000;font-size:14.750000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1019">24G</tspan></tspan></text>
   <path
      style="fill:none;stroke:#d9d9d9;stroke-width:0.95995015px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
-     d="  M 497.01419,197.82972   L 883.55411,197.82972     M 497.01419,170.63114   L 883.55411,170.63114     M 497.01419,143.43255   L 883.55411,143.43255     M 497.01419,116.23396   L 883.55411,116.23396     M 497.01419,89.195367   L 883.55411,89.195367     M 497.01419,61.99678   L 883.55411,61.99678     M 497.01419,34.798193   L 883.55411,34.798193    "
-     id="path1007" />
+     d="  M 497.01419,201.18955   L 883.55411,201.18955     M 497.01419,177.1908   L 883.55411,177.1908     M 497.01419,153.19204   L 883.55411,153.19204     M 497.01419,129.19329   L 883.55411,129.19329     M 497.01419,105.35453   L 883.55411,105.35453     M 497.01419,81.355774   L 883.55411,81.355774     M 497.01419,57.357021   L 883.55411,57.357021     M 497.01419,33.358267   L 883.55411,33.358267    "
+     id="path1025" />
   <path
      style="fill:#5b9bd5;fill-rule:evenodd;fill-opacity:1;stroke:none;"
-     d="  M 541.33188,165.99138   L 541.33188,225.02831   L 581.64979,225.02831   L 581.64979,165.99138   L 541.33188,165.99138   z "
-     id="path1009" />
+     d="  M 541.33188,173.03101   L 541.33188,225.1883   L 581.64979,225.1883   L 581.64979,173.03101   L 541.33188,173.03101   z "
+     id="path1027" />
   <path
      style="fill:#2e75b6;fill-rule:evenodd;fill-opacity:1;stroke:none;"
-     d="  M 670.12519,147.11236   L 670.12519,225.02831   L 710.4431,225.02831   L 710.4431,147.11236   L 670.12519,147.11236   z "
-     id="path1011" />
+     d="  M 670.12519,156.39188   L 670.12519,225.1883   L 710.4431,225.1883   L 710.4431,156.39188   L 670.12519,156.39188   z "
+     id="path1029" />
   <path
      style="fill:#ed7d31;fill-rule:evenodd;fill-opacity:1;stroke:none;"
-     d="  M 798.9185,53.837204   L 798.9185,225.02831   L 839.3964,225.02831   L 839.3964,53.837204   L 798.9185,53.837204   z "
-     id="path1013" />
+     d="  M 798.9185,74.156148   L 798.9185,225.1883   L 839.3964,225.1883   L 839.3964,74.156148   L 798.9185,74.156148   z "
+     id="path1031" />
   <path
      style="fill:none;stroke:#d9d9d9;stroke-width:0.95995015px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
-     d="  M 497.01419,225.02831   L 883.55411,225.02831  "
-     id="path1015" />
+     d="  M 497.01419,225.1883   L 883.55411,225.1883  "
+     id="path1033" />
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,544.675772,157.467407)"
-     x="0.000000"
-     y="0.000000"
-     id="text1021"><tspan
-       sodipodi:role="line"
-       x="0.000000"
-       y="0.000000"
-       id="tspan1019"><tspan
-         dx="0.000000"
-         dy="0.000000"
-         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1017">21711</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,673.510096,138.601825)"
-     x="0.000000"
-     y="0.000000"
-     id="text1027"><tspan
-       sodipodi:role="line"
-       x="0.000000"
-       y="0.000000"
-       id="tspan1025"><tspan
-         dx="0.000000"
-         dy="0.000000"
-         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1023">28655</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,802.344342,45.360789)"
-     x="0.000000"
-     y="0.000000"
-     id="text1033"><tspan
-       sodipodi:role="line"
-       x="0.000000"
-       y="0.000000"
-       id="tspan1031"><tspan
-         dx="0.000000"
-         dy="0.000000"
-         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1029">62975</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,480.135296,228.873269)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,544.675772,164.582545)"
      x="0.000000"
      y="0.000000"
      id="text1039"><tspan
@@ -423,12 +363,12 @@
        id="tspan1037"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1035">0</tspan></tspan></text>
+         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1035">21711</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,201.705109)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,673.510096,147.941496)"
      x="0.000000"
      y="0.000000"
      id="text1045"><tspan
@@ -438,12 +378,12 @@
        id="tspan1043"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1041">10000</tspan></tspan></text>
+         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1041">28655</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,174.536989)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,802.344342,65.694967)"
      x="0.000000"
      y="0.000000"
      id="text1051"><tspan
@@ -453,12 +393,12 @@
        id="tspan1049"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1047">20000</tspan></tspan></text>
+         style="fill:#404040;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1047">62975</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,147.368830)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,480.135296,229.033260)"
      x="0.000000"
      y="0.000000"
      id="text1057"><tspan
@@ -469,11 +409,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1053">30000</tspan></tspan></text>
+         id="tspan1053">0</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,120.200671)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,205.068607)"
      x="0.000000"
      y="0.000000"
      id="text1063"><tspan
@@ -484,11 +424,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1059">40000</tspan></tspan></text>
+         id="tspan1059">10000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,93.032551)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,181.103992)"
      x="0.000000"
      y="0.000000"
      id="text1069"><tspan
@@ -499,11 +439,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1065">50000</tspan></tspan></text>
+         id="tspan1065">20000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,65.864392)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,157.139338)"
      x="0.000000"
      y="0.000000"
      id="text1075"><tspan
@@ -514,11 +454,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1071">60000</tspan></tspan></text>
+         id="tspan1071">30000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,38.696252)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,133.174724)"
      x="0.000000"
      y="0.000000"
      id="text1081"><tspan
@@ -529,11 +469,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1077">70000</tspan></tspan></text>
+         id="tspan1077">40000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,523.196732,243.164050)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,109.210187)"
      x="0.000000"
      y="0.000000"
      id="text1087"><tspan
@@ -544,11 +484,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1083">TerarkDB_2G</tspan></tspan></text>
+         id="tspan1083">50000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,648.694588,243.164050)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,85.245553)"
      x="0.000000"
      y="0.000000"
      id="text1093"><tspan
@@ -559,11 +499,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1089">TerarkDB_24G</tspan></tspan></text>
+         id="tspan1089">60000</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,787.878531,243.164050)"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,61.280919)"
      x="0.000000"
      y="0.000000"
      id="text1099"><tspan
@@ -574,11 +514,11 @@
          dx="0.000000"
          dy="0.000000"
          style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1095">WiredTiger</tspan></tspan></text>
+         id="tspan1095">70000</tspan></tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:16.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,503.568845,14.835772)"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,453.443128,37.316284)"
      x="0.000000"
      y="0.000000"
      id="text1105"><tspan
@@ -588,12 +528,12 @@
        id="tspan1103"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#595959;font-size:16.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1101">p99 read latency of read test, memory = </tspan></tspan></text>
+         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1101">80000</tspan></tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:16.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
-     transform="matrix(1.000000,-0.000000,0.000000,1.000000,808.992981,14.835772)"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,511.190637,243.324042)"
      x="0.000000"
      y="0.000000"
      id="text1111"><tspan
@@ -603,6 +543,66 @@
        id="tspan1109"><tspan
          dx="0.000000"
          dy="0.000000"
-         style="fill:#FF0000;font-size:16.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
-         id="tspan1107">24G</tspan></tspan></text>
+         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1107">TerarkDB_sst_2G</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,636.688493,243.324042)"
+     x="0.000000"
+     y="0.000000"
+     id="text1117"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan1115"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1113">TerarkDB_sst_24G</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,787.878531,243.324042)"
+     x="0.000000"
+     y="0.000000"
+     id="text1123"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan1121"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#595959;font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1119">WiredTiger</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.750000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,535.087208,13.715870)"
+     x="0.000000"
+     y="0.000000"
+     id="text1129"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan1127"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#595959;font-size:14.750000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1125">p99 latency of read test, memory = </tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.750000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,780.034485,13.715870)"
+     x="0.000000"
+     y="0.000000"
+     id="text1135"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan1133"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#FF0000;font-size:14.750000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Arial;"
+         id="tspan1131">24G</tspan></tspan></text>
 </svg>
