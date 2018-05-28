@@ -5,8 +5,8 @@ YCSB 的英文全称是 Yahoo! Cloud Serving Benchmark，是 Yahoo 公司的一�
 由于原版 YCSB 的数据都是纯随机生成的字符串，离用户的真实场景相差较大，所以我们修改了 [YCSB](https://github.com/Terark/YCSB/tree/dev) 并添加了一个 [FileWorkload](https://github.com/Terark/YCSB/blob/master/README-terark.md)，以使用接近真实场景的数据来对数据库进行测试。
 
 测试的数据库有:
- - [TerarkMongo](http://terark.com/zh/databases/mongodb)，存储引擎为 TerarkDB，**target_file_size_base** 设为 **2G**，后记为 TerarkDB_2G
- - [TerarkMongo](http://terark.com/zh/databases/mongodb)，存储引擎为 TerarkDB，**target_file_size_base** 设为 **24G**，后记为 TerarkDB_24G
+ - [TerarkMongo](http://terark.com/zh/databases/mongodb)，存储引擎为 TerarkDB，**target_file_size_base** 设为 **2G**，以下记为 TerarkDB_2G
+ - [TerarkMongo](http://terark.com/zh/databases/mongodb)，存储引擎为 TerarkDB，**target_file_size_base** 设为 **24G**，以下记为 TerarkDB_24G
  - 官方原版 [MongoDB](https://www.mongodb.com/)，版本为 **v3.2.13**，存储引擎为 WiredTiger，后记为 WiredTiger
 
 TerarkDB 的 **target_file_size_base** 选项用于设置数据压缩后生成的数据文件（sst）的大小。当 **target_file_size_base** 设置为 **2G** 时 TerarkDB 的写放大较小，生成的数据文件较小（≈ 2G），便于运维；当 **target_file_size_base** 设置为 **24G** 时，能将所有的 wikipedia 文章数据压缩到一个数据文件（sst）中，此时 TerarkDB 有最高的压缩率和最好的性能。
@@ -82,7 +82,7 @@ TerarkDB 的 **target_file_size_base** 选项用于设置数据压缩后生成�
 - 批量随机读测试，每次 query 随机读取 20 条数据（batch_read）
 - 随机读、写混合测试，读写比例为 9 ：1（read_write）
 
-这三种测试分别在 128G、24G 内存下运行，其中 24G 内存限制通过使用内存挤占工具挤占一定数量的内存（不可换出）确保各数据库能使用的内存为 24G 来实现。
+这三种测试分别在 128G、24G 内存下运行，其中 24G 内存限制是通过使用内存挤占工具挤占一定数量的内存（不可换出）来实现的，确保各数据库能使用的内存为 24G 。
 
 每次测试中 WiredTiger 的 **cacheSizeGB** 总是设置为可用内存的 **60% - 1GB**（60% of RAM minus 1 GB），TerarkDB 的 **softZipWorkingMemLimit** 和 **hardZipWorkingMemLimit** 分别设置为可用内存的 **1/8** 和 **1/4**。
 
