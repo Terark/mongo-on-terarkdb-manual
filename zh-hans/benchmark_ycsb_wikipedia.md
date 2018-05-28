@@ -91,7 +91,7 @@ TerarkDB 的 **target_file_size_base** 选项用于设置数据压缩后生成�
 测试结果总览如下：
 <table>
     <tr>
-             <th>内存</th><th>测试类型</th><th>TerarkDB_2G</th><th>TerarkDB_24G</th><th>WiredTiger</th>
+             <th>内存</th><th>测试类型</th><th>TerarkDB_sst_2G</th><th>TerarkDB_sst_24G</th><th>WiredTiger</th>
     </tr>
     <tr align="right">
              <td rowspan="3">128G</td> <td align="left">read</td> <td>134,188</td> <td>140,948</td> <td>131,485</td>
