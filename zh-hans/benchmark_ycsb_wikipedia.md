@@ -38,7 +38,7 @@ TerarkDB 的 **target_file_size_base** 选项用于设置数据压缩后生成�
 
 ## 数据导入
 
-原版的 YCSB 使用随机生成的字符串作为数据源，这样的数据无法体现压缩算法的优劣。通过使用修改后的 YCSB，我们以 [wikipedia](https://dumps.wikimedia.org/backup-index.html) dump 出来的文章数据作为数据源（数据示例可见**附录1**），这个数据集共有 **38,508,221** 条，总大小为 **102.1 GB**，平均每条约 **2.8 KB**。其中，将每条数据中的前三个字段(id、namepsace、title)作为主键（_id）。
+原版的 YCSB 使用随机生成的字符串作为数据源，这样的数据无法体现压缩算法的优劣。通过使用修改后的 YCSB，我们以 [wikipedia](https://dumps.wikimedia.org/backup-index.html) dump 出来的文章数据作为数据源（数据示例可见**附录1**），这个数据集共有 **38,508,221** 条，平均每条 **2.8 KB**，总大小为 **102.1 GB**。导入数据时，将每条数据中的前三个字段(id、namepsace、title)作为主键（_id）。
 
 数据导入后，数据库的尺寸大小比较如下：
 <table>
