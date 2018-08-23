@@ -1,6 +1,6 @@
-## 1. 下载，安装部署 Mongo on TerarkDB
+## 1. 下载，安装部署 TerarkMongo
 
-点击这里：[下载，安装部署 Mongo on TerarkDB](installation.md)
+点击这里：[下载，安装部署 TerarkMongo](installation.md)
 
 ## 2. 创建测试所需的数据库以及表
 

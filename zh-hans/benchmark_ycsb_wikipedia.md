@@ -174,4 +174,4 @@ TerarkDB_sst_24G 在不限制内存的情况下最大内存使用仅有 23G， 2
 24	0	'AmoeboidTaxa'	'#REDIRECT [[Amoeba]] {{R from CamelCase}}'	'Bot: Fixing double redirect to [[Amoeba]]'	15934865	'Invadibot'	'20140929222603'	''	0	1	1	RAND()	DATE_ADD('1970-01-01', INTERVAL UNIX_TIMESTAMP() SECOND)+0	'79859070777396'
 ```
 
-更多数据示例在[这里](https://raw.githubusercontent.com/Terark/mongo-on-terarkdb-manual/master/zh-hans/ycsb_dateset_example.txt)
+更多数据示例在[这里](https://raw.githubusercontent.com/Terark/terarkmongo-manual/master/zh-hans/ycsb_dateset_example.txt)

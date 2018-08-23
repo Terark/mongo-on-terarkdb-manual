@@ -1,9 +1,9 @@
-## Mongo on TerarkDB 使用手册
+## TerarkMongo 使用手册
 
 ### 1.产品简介
-Mongo on TerarkDB 是一款使用 TerarkDB 存储引擎的 MongoDB 修改版，基于 TerarkDB 存储引擎的高压缩高随机读特点，我们将 MongoDB 的压缩率和随机读能力也全面的提高了
+TerarkMongo 是一款使用 TerarkDB 存储引擎的 MongoDB 修改版，基于 TerarkDB 存储引擎的高压缩高随机读特点，我们将 MongoDB 的压缩率和随机读能力也全面的提高了
 
-Mongo on TerarkDB 使用了 MongoRocks 作为 TerarkDB 和 MongoDB 的适配层：
+TerarkMongo 使用了 MongoRocks 作为 TerarkDB 和 MongoDB 的适配层：
 
 - MongoRocks 是 MongoDB 的一个存储引擎适配层，将 RocksDB 对接到 MongoDB，使用该引擎的 MongoDB 占用空间更小、性能更高。为了不失简洁，我们也简称 MongoRocks 就是搭配了 MongoRocks 的 MongoDB。
 - TerarkDB 是基于 Terark 可检索压缩专利技术的 RocksDB 发行版，完全兼容 RocksDB，为 MongoRocks 提供更高效的压缩率和随机读性能。
@@ -11,7 +11,7 @@ Mongo on TerarkDB 使用了 MongoRocks 作为 TerarkDB 和 MongoDB 的适配层�
 
 ### 2.优势
 
-TerarkDB 完全兼容 RocksDB，所以 Mongo on TerarkDB 在功能上完全等同于 MongoRocks 官方版。
+TerarkDB 完全兼容 RocksDB，所以 TerarkMongo 在功能上完全等同于 MongoRocks 官方版。
 
 作为 MongoDB 存储引擎，RocksDB 对比 WiredTiger，在某些场景下已表现出巨大的优势，TerarkDB 则进一步扩大了这个优势:
 
@@ -24,7 +24,7 @@ TerarkDB 完全兼容 RocksDB，所以 Mongo on TerarkDB 在功能上完全等�
   - 引擎层面随机读性能相比官方 RocksDB 提升 200 倍以上，MongoDB 层有固定的性能损耗，最终提升一般在 10 倍以上
 
 ### 3.理想场景
-Mongo on TerarkDB 在大多数场景下都表现优异，但我们也有自己的理想场景：
+TerarkMongo 在大多数场景下都表现优异，但我们也有自己的理想场景：
 
 - 文本数据较多的场景，如用户信息、点评数据、论坛数据、标签数据等
 - 读远多于写的场景
